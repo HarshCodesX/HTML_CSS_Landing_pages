@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 55%;
+}
+
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+#nav i{
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+#nav h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#nav img{
+    height: 50px;
+}
+
+#line{
+    width: 70px;
+    height: 2px;
+    background-color: red;
+}
+
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 50px 40px;
+}
+
+#right{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 250px 80px;
+}
+
+#center{
+    width: 26%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top: 60px;
+}
+
+#left h1{
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+
+#left p{
+    margin-bottom: 50px;
+    font-size: 17px;
+    width: 80%;
+    line-height: 22px;
+}
+
+#left button{
+    background-color: red;
+    padding: 16px 28px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border: none;
+}
+
+#left button i{
+    margin-right: 8px;
+}
+
+#content-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 35px;
+}
+
+#content-prt2>i{
+    color: red;
+    font-size: 22px;
+}
+
+#center-bg{
+    height: 88%;
+    width: 100%;
+    background-color: blue;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9PDIYk2cdvr0_vTpPpNgP4auVNmvwQfLwCLfbGAGuw&s);
+    background-size: 150%;
+    background-position: 30% 50%;
+    filter: blur(2px);
+}
+
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%, 0);
+}
+
+#right-elems{
+    /* background-color: red; */
+    width: 350px;
+}
+
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: purple; */
+    opacity: 0.6;
+    border-bottom: 1px solid #fff;
+}
+
+#elem1 h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#elem1 i{
+    font-size: 22px;
+}
+
+#elem2 h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+#elem2 p{
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.6;
+}

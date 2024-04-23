@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #d0d4d5;
+    position: relative;
+}
+
+#nav{
+    height: 95px;
+    padding: 0 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 35px;
+    margin-right: 170px;
+}
+
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-prt1 h4{
+    margin-right: 60px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#nav-prt2 i{
+    margin-right: 60px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 95px);
+    display: flex;
+    position: relative;
+}
+
+#left{
+    width: 40%;
+    height: 100%;
+    padding: 50px 70px;
+    /* background-color: blue; */
+}
+
+#left h5{
+    font-size: 22px;
+    color: #535353;
+    margin-bottom: 25px;
+}
+
+#left h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+#left p{
+    font-size: 17px;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+#left button{
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    text-transform: uppercase;
+}
+
+#right{
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 60px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.elem{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.elem img{
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+    top: 25%;
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #d0d4d5;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+}

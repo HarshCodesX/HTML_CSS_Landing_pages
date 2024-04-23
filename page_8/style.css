@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+
+#center{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    height: 80%;
+    width: 80%;
+}
+
+.imagecontainer{
+    position: absolute;
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+}
+
+img{
+    height: 100%;
+}
+
+.text{
+    position: absolute;
+    overflow: hidden;
+    bottom: 15%;
+    left: -8.5%;
+    width: 400px;
+    height: 100px;
+    z-index: 99;
+    /* background-color: red; */
+}
+
+.text h1{
+    font-size: 6vw;
+    top: 100px;
+    position: absolute;
+}
