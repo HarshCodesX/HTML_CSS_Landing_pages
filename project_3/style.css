@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+#nav{
+    /* height: 100px; we will adjust it with padding */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 60px;
+    /* background-color: red; */
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#nav h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#content{
+    padding: 40px 60px;
+    margin-top: 40px;
+}
+
+#content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#content h1{
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 125px;
+    margin-top: 30px;
+}
+
+#case{
+    padding: 20px 60px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#case h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: #000;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    gap: 60px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 550px;
+    background-color: red;
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(https://cdn.dribbble.com/users/2778493/screenshots/14196709/media/1aa3dcf38a8b00efbc482648aad3df9d.png?resize=1000x750&vertical=center);
+}
+
+#img2{
+    background-image: url(https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dWklMkZ1eCUyMGluJTIwaXBhZHxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 800;
+}
+
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bottom h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #808080;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#nav h3{
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nav i{
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#btn2{
+    border: none !important;
+    background-color: orangered !important; /* not working, thats why used !important */
+    color: white;
+}
+
+#main>h1{
+    font-size: 130px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    height: 380px;
+    width: 330px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+    font-size: 17px;
+}
